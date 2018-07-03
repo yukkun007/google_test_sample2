@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HogeSub", "HogeSub\HogeSub.vcxproj", "{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hoge", "Hoge\Hoge.vcxproj", "{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C} = {6BA0DC02-79FE-4669-B7D2-31C5013EE56C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		UnitTest_Hoge|Mixed Platforms = UnitTest_Hoge|Mixed Platforms
+		UnitTest_Hoge|Win32 = UnitTest_Hoge|Win32
+		UnitTest_Hoge|x64 = UnitTest_Hoge|x64
+		UnitTest_HogeSub|Mixed Platforms = UnitTest_HogeSub|Mixed Platforms
+		UnitTest_HogeSub|Win32 = UnitTest_HogeSub|Win32
+		UnitTest_HogeSub|x64 = UnitTest_HogeSub|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.Debug|Win32.Build.0 = Debug|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.Debug|x64.ActiveCfg = Debug|x64
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.Debug|x64.Build.0 = Debug|x64
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.Release|Win32.ActiveCfg = Release|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.Release|Win32.Build.0 = Release|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.Release|x64.ActiveCfg = Release|x64
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.Release|x64.Build.0 = Release|x64
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.UnitTest_Hoge|Mixed Platforms.ActiveCfg = Debug|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.UnitTest_Hoge|Mixed Platforms.Build.0 = Debug|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.UnitTest_Hoge|Win32.ActiveCfg = Debug|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.UnitTest_Hoge|Win32.Build.0 = Debug|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.UnitTest_Hoge|x64.ActiveCfg = Debug|x64
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.UnitTest_Hoge|x64.Build.0 = Debug|x64
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.UnitTest_HogeSub|Mixed Platforms.ActiveCfg = UnitTest_HogeSub|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.UnitTest_HogeSub|Mixed Platforms.Build.0 = UnitTest_HogeSub|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.UnitTest_HogeSub|Win32.ActiveCfg = UnitTest_HogeSub|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.UnitTest_HogeSub|Win32.Build.0 = UnitTest_HogeSub|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.UnitTest_HogeSub|x64.ActiveCfg = UnitTest_HogeSub|Win32
+		{6BA0DC02-79FE-4669-B7D2-31C5013EE56C}.UnitTest_HogeSub|x64.Build.0 = UnitTest_HogeSub|Win32
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.Debug|Win32.Build.0 = Debug|Win32
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.Debug|x64.ActiveCfg = Debug|x64
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.Debug|x64.Build.0 = Debug|x64
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.Release|Win32.ActiveCfg = Release|Win32
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.Release|Win32.Build.0 = Release|Win32
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.Release|x64.ActiveCfg = Release|x64
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.Release|x64.Build.0 = Release|x64
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.UnitTest_Hoge|Mixed Platforms.ActiveCfg = UnitTest_Hoge|Win32
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.UnitTest_Hoge|Mixed Platforms.Build.0 = UnitTest_Hoge|Win32
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.UnitTest_Hoge|Win32.ActiveCfg = UnitTest_Hoge|Win32
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.UnitTest_Hoge|Win32.Build.0 = UnitTest_Hoge|Win32
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.UnitTest_Hoge|x64.ActiveCfg = UnitTest_Hoge|x64
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.UnitTest_Hoge|x64.Build.0 = UnitTest_Hoge|x64
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.UnitTest_HogeSub|Mixed Platforms.ActiveCfg = Debug|Win32
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.UnitTest_HogeSub|Mixed Platforms.Build.0 = Debug|Win32
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.UnitTest_HogeSub|Win32.ActiveCfg = Debug|Win32
+		{1EF94EA1-C9B9-42EA-84E1-312F183CC4AD}.UnitTest_HogeSub|x64.ActiveCfg = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
